@@ -1,0 +1,11 @@
+Source: openmediavault-kernel-3.16.1-stable
+Section: net
+Priority: optional
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.3
+
+Package: openmediavault-kernel-3.16.1-stable
+Architecture: amd64
+Depends: openmediavault (>= 0.6.0.6), ${misc:Depends}, linux-image-3.16.1-unofficial-omv-stable_1
+Description: Kernel 3.16.1 stable for OpenMediaVault.
